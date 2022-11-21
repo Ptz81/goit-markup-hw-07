@@ -22,34 +22,34 @@
     <!--HEADER-->
 
     <header class="header">
-      <div class="container logo-flex">
-        <a href="./index.html" class="logo"><span>Web</span>Studio</a>
-        <nav class="nav">
-          <ul class="menu li-style">
-            <li class="nav-menu">
-              <a class="menu-link line focus-color" href="./index.html">Студія</a>
+      <div class="header_container section_container">
+        <a href="./index.html" class="link"><span class="header_logo">Web</span>Studio</a>
+        <nav class="header_nav">
+          <ul class="header_menu list">
+            <li class="header_item">
+              <a class="header_link header_link--line header_link--focus" href="./index.html">Студія</a>
             </li>
-            <li class="nav-menu">
-              <a class="menu-link title accent" href="./portfolio.html">Портфоліо</a>
+            <li class="header_item">
+              <a class="header_link header_link--accent" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="nav-menu">
-              <a class="menu-link title accent" href="">Контакти</a>
+            <li class="header_item">
+              <a class="header_link header_link--accent" href="">Контакти</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="menu-contact li-style">
-          <li class="contact-item icon-envelope">
-            <a class="menu-link primary accent" href="mailto:info@devstudio.com">
-              <svg class="mail-icon" width="16" height="12">
+        <ul class="header_menu--position list">
+          <li class="header_item--flex icon-envelope">
+            <a class="header_link header_link--primary" href="mailto:info@devstudio.com">
+              <svg class="header_icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contact-item icon-phone">
-            <a class="menu-link primary accent" href="tel:+380961111111">
-              <svg class="mail-icon" width="10" height="16">
+          <li class="header_item--flex icon-phone">
+            <a class="header_link header_link--primary" href="tel:+380961111111">
+              <svg class="header_icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -62,60 +62,62 @@
     <!--MAIN-->
 
     <main class="main">
-      <section class="hero">
-        <div class="container">
-          <h1 class="hero-title text-focus-in">Ефективні рішення для вашого бізнесу</h1>
-          <button class="btn border-btn heartbeat" type="button" data-modal-open>
+      <section class="main-hero(hero)">
+        <div class="section-container(container)">
+          <h1 class="main-title(hero-title) main-title__focus(text-focus-in)">
+            Ефективні рішення для вашого бізнесу
+          </h1>
+          <button class="btn main-btn(border-btn heartbeat)" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
       </section>
 
-      <section class="section">
-        <div class="container">
+      <section class="section_wrapper">
+        <div class="section-container(container)">
           <h2 class="visually-hidden">Вигоди співпраці</h2>
-          <ul class="advantages-box li-style">
-            <li class="advantage-list">
-              <div class="icon-container">
-                <svg class="icon" width="70" height="70">
+          <ul class="advantage(advantages-box) list">
+            <li class="advantage-item(advantage-list)">
+              <div class="advantage-wrapper__icon(icon-container)">
+                <svg class="advantage-icon(icon)" width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
               <h3 class="advantages-title">Увага до деталей</h3>
-              <p class="advantage-item">
+              <p class="advantage-text(advantage-item)">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li class="advantage-list">
-              <div class="icon-container">
-                <svg class="icon" width="70" height="70">
+            <li class="advantage-item(advantage-list)">
+              <div class="advantage-wrapper__icon(icon-container)">
+                <svg class="advantage-icon(icon)" width="70" height="70">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
               <h3 class="advantages-title">Пунктуальність</h3>
-              <p class="advantage-item">
+              <p class="advantage-text(advantage-item)">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li class="advantage-list">
-              <div class="icon-container">
-                <svg class="icon" width="70" height="70">
+            <li class="advantage-item(advantage-list)">
+              <div class="advantage-wrapper__icon(icon-container)">
+                <svg class="advantage-icon(icon)" width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
               <h3 class="advantages-title">Планування</h3>
-              <p class="advantage-item">
+              <p class="advantage-text(advantage-item)">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="advantage-list">
-              <div class="icon-container">
-                <svg class="icon" width="70" height="70">
+            <li class="advantage-item(advantage-list)">
+              <div class="advantage-wrapper__icon(icon-container)">
+                <svg class="advantage-icon(icon)" width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
               <h3 class="advantages-title">Сучасні технології</h3>
-              <p class="advantage-item">
+              <p class="advantage-text(advantage-item)">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
@@ -123,41 +125,41 @@
         </div>
       </section>
 
-      <section class="section no-padding">
-        <div class="container">
+      <section class="section_wrapper no-padding">
+        <div class="section-container(container)">
           <h2 class="activity-title">Чим ми займаємось</h2>
-          <ul class="activity-box li-style">
-            <li class="activity-img">
+          <ul class="activity(activity-box) list">
+            <li class="activity-item(activity-img)">
               <img src="./images/box_1.jpg" width="370" alt="процес набору на клавіатурі" />
 
-              <p class="decoration-text">Десктопні додатки</p>
+              <p class="activity-label(decoration-text)">Десктопні додатки</p>
             </li>
-            <li class="activity-img">
+            <li class="activity-item(activity-img)">
               <img src="./images/box_2.jpg" width="370" alt="жінка з телефоном в руках" />
 
-              <p class="decoration-text">Мобільні додатки</p>
+              <p class="activity-label(decoration-text)">Мобільні додатки</p>
             </li>
-            <li class="activity-img">
+            <li class="activity-item(activity-img)">
               <img src="./images/box_3.jpg" width="370" alt="мужчина з планшетом в руках" />
 
-              <p class="decoration-text">Дизайнерські рішення</p>
+              <p class="activity-label(decoration-text)">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="team section">
-        <div class="container">
+      <section class="team section_wrapper">
+        <div class="section-container(container)">
           <h2 class="team-title">Наша команда</h2>
-          <ul class="team-box li-style">
-            <li class="team-user">
-              <img src="./images/worker_1.jpg" width="270" alt="Ігор Дем'яненко" />
+          <ul class="team-section(team-box) list">
+            <li class="user(team-user)">
+              <img class="user-img" src="./images/worker_1.jpg" width="270" alt="Ігор Дем'яненко" />
 
-              <div class="team-player">
-                <h3 class="team-name">Ігор Дем'яненко</h3>
-                <p class="user">Product Designer</p>
+              <div class="user-wrapper(team-player)">
+                <h3 class="user-title(team-name)">Ігор Дем'яненко</h3>
+                <p class="user-label(user)">Product Designer</p>
 
-                <ul class="li-style socials">
+                <ul class="list socials">
                   <li class="icon-list">
                     <a class="social-link" href="https://instagram.com">
                       <svg class="icon" width="20" height="20">
@@ -199,7 +201,7 @@
                 <h3 class="team-name">Ольга Рєпіна</h3>
                 <p class="user">Frontend Developer</p>
 
-                <ul class="li-style socials">
+                <ul class="list socials">
                   <li class="icon-list">
                     <a class="social-link" href="https://instagram.com">
                       <svg class="icon" width="20" height="20">
@@ -241,7 +243,7 @@
                 <h3 class="team-name">Микола Тарасов</h3>
                 <p class="user">Marketing</p>
 
-                <ul class="li-style socials">
+                <ul class="list socials">
                   <li class="icon-list">
                     <a class="social-link" href="https://instagram.com">
                       <svg class="icon" width="20" height="20">
@@ -283,7 +285,7 @@
                 <h3 class="team-name">Михайло Єрмаков</h3>
                 <p class="user">UI Designer</p>
 
-                <ul class="li-style socials">
+                <ul class="list socials">
                   <li class="icon-list">
                     <a class="social-link" href="https://instagram.com">
                       <svg class="icon" width="20" height="20">
@@ -322,10 +324,10 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section_wrapper">
         <div class="container">
           <h2 class="clients-title">Постійні клієнти</h2>
-          <ul class="clients-box li-style">
+          <ul class="clients-box list">
             <li class="clients-item">
               <a class="clients-link" href="https://yayaco.ca">
                 <svg class="icon" width="106" height="60">
@@ -383,9 +385,9 @@
     <footer class="footer">
       <div class="container cover">
         <div class="bottom-div">
-          <a href="./index.html" class="logo footer-logo"><span>Web</span>Studio</a>
+          <a href="./index.html" class="link footer-logo"><span>Web</span>Studio</a>
           <address class="address">
-            <ul class="footer-menu-contact li-style">
+            <ul class="footer-menu-contact list">
               <li class="footer-item">
                 <a
                   class="map-link accent"
@@ -408,7 +410,7 @@
         </div>
         <div class="subscribe">
           <p class="subscribe-title">Приєднуйтеся</p>
-          <ul class="li-style socials">
+          <ul class="list socials">
             <li class="icon-list">
               <a class="social-link" href="https://instagram.com">
                 <svg class="icons" width="20" height="20">
@@ -472,82 +474,71 @@
 
         <p class="modal-name">Залиште свої дані, ми вам передзвонимо</p>
         <form class="group-cover">
-         
-
-            <div class="modal-group" role="group">
-              <label class="modal-label" for="name"
-                >Ім'я</label>
-                <div class="wrapper-input">
-                  <input
-                    class="input-form"
-                    type="text"
-                    name="user_name"
-                    id="name"
-                    autofocus
-                    required
-                    pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
-                    title="Введіть ім'я та прізвище через пробіл"
-                  />
-                  <svg class="icon-modal" width="18" height="18">
-                    <use href="./images/icons.svg#icon-person-modal"></use>
-                  </svg>
-                </div>
-              
-            </div>
-
-            <div class="modal-group" role="group">
-              <label class="modal-label" for="phone"
-                >Телефон</label>
-                <div class="wrapper-input">
-                  <input class="input-form" type="tel" name="user_phone" id="phone" required />
-                  <svg class="icon-modal" width="18" height="18">
-                    <use href="./images/icons.svg#icon-ring-modal"></use>
-                  </svg>
-                </div>
-              
-            </div>
-
-            <div class="modal-group" role="group">
-              <label class="modal-label" for="email" icon-modal
-                >Пошта</label>
-                <div class="wrapper-input">
-                  <input class="input-form" type="email" name="user_email" id="email" required />
-                  <svg class="icon-modal" width="18" height="18">
-                    <use href="./images/icons.svg#icon-envelope-modal"></use>
-                  </svg>
-                </div>
-              
-            </div>
-
-            <div class="modal-group modal-comment" role="group">
-              <label class="modal-label" for="comments"
-                >Коментар</label>
-                <textarea
-                  class="comments"
-                  name="comments"
-                  id="comments"
-                  rows="10"
-                  placeholder="Введіть текст"
-                ></textarea>
-              
-            </div>
-
-            <div class="agreement" role="group">
+          <div class="modal-group" role="group">
+            <label class="modal-label" for="name">Ім'я</label>
+            <div class="wrapper-input">
               <input
-                class="agreement-form"
-                type="checkbox"
-                name="agreement"
-                value="agreement"
-                id="agreement"
+                class="input-form"
+                type="text"
+                name="user_name"
+                id="name"
+                autofocus
+                required
+                pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+                title="Введіть ім'я та прізвище через пробіл"
               />
-              <label class="agreement-title" for="agreement"
-                >Погоджуюся з розсилкою та приймаю
-                <a class="agreement-link" href="">Умови договору </a>
-              </label>
+              <svg class="icon-modal" width="18" height="18">
+                <use href="./images/icons.svg#icon-person-modal"></use>
+              </svg>
             </div>
+          </div>
 
-            <button class="btn submit-btn" type="submit">Відправити</button>
-          
+          <div class="modal-group" role="group">
+            <label class="modal-label" for="phone">Телефон</label>
+            <div class="wrapper-input">
+              <input class="input-form" type="tel" name="user_phone" id="phone" required />
+              <svg class="icon-modal" width="18" height="18">
+                <use href="./images/icons.svg#icon-ring-modal"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-group" role="group">
+            <label class="modal-label" for="email" icon-modal>Пошта</label>
+            <div class="wrapper-input">
+              <input class="input-form" type="email" name="user_email" id="email" required />
+              <svg class="icon-modal" width="18" height="18">
+                <use href="./images/icons.svg#icon-envelope-modal"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-group modal-comment" role="group">
+            <label class="modal-label" for="comments">Коментар</label>
+            <textarea
+              class="comments"
+              name="comments"
+              id="comments"
+              rows="10"
+              placeholder="Введіть текст"
+            ></textarea>
+          </div>
+
+          <div class="agreement" role="group">
+            <input
+              class="agreement-form"
+              type="checkbox"
+              name="agreement"
+              value="agreement"
+              id="agreement"
+            />
+            <label class="agreement-title" for="agreement"
+              >Погоджуюся з розсилкою та приймаю
+              <a class="agreement-link" href="">Умови договору </a>
+            </label>
+          </div>
+
+          <button class="btn submit-btn" type="submit">Відправити</button>
         </form>
       </div>
     </div>
