@@ -15,10 +15,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>WebStudio</title>
   </head>
+
   <body>
+
     <!--HEADER-->
 
     <header class="header">
@@ -38,7 +40,7 @@
           </ul>
         </nav>
 
-        <ul class="header_menu--position list">
+        <ul class="header_menu header_menu--position list">
           <li class="header_item--flex icon-envelope">
             <a class="header_link header_link--primary" href="mailto:info@devstudio.com">
               <svg class="header_icon" width="16" height="12">
@@ -65,10 +67,10 @@
 
       <section class="hero">
         <div class="section_container">
-          <h1 class="hero-title hero-title__focus">
+          <h1 class="hero_title hero_title--focus">
             Ефективні рішення для вашого бізнесу
           </h1>
-          <button class="btn hero-btn" type="button" data-modal-open>
+          <button class="btn hero_btn" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -114,7 +116,7 @@
               </p>
             </li>
             <li class="advantage_item">
-              <div class="advantage_wrapper__icon">
+              <div class="advantage-wrapper__icon">
                 <svg class="icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
@@ -135,7 +137,7 @@
         <div class="section_container">
           <h2 class="activity_title">Чим ми займаємось</h2>
           <ul class="activity list">
-            <li class="activity-item">
+            <li class="activity_item">
               <img src="./images/box_1.jpg" width="370" alt="процес набору на клавіатурі" />
 
               <p class="activity_label">Десктопні додатки</p>
@@ -395,7 +397,7 @@
     <footer class="footer">
       <div class="section_container footer_container">
         <div class="footer--transform">
-          <a href="./index.html" class="link footer_logo"><span>Web</span>Studio</a>
+          <a href="./index.html" class="link footer_logo"><span class="header_logo">Web</span>Studio</a>
           <address class="footer_address">
             <ul class="footer_nav list">
               <li class="footer-item">
@@ -420,17 +422,17 @@
         </div>
         <div class="footer_subscribe">
           <p class="footer_title">Приєднуйтеся</p>
-          <ul class="list footer_section footer_section--gap">
-            <li">
-              <a class="footer_section .footer_section--advance" href="https://instagram.com">
+          <ul class="list footer_section">
+            <li>
+              <a class="footer_section--advance" href="https://instagram.com">
                 <svg class="footer_icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
 
-            <li">
-              <a class="footer_section .footer_section--advance" href="https://twitter.com">
+            <li>
+              <a class="footer_section--advance" href="https://twitter.com">
                 <svg class="footer_icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
@@ -438,15 +440,15 @@
             </li>
 
             <li>
-              <a class="footer_section .footer_section--advance" href="https://www.facebook.com/">
+              <a class="footer_section--advance" href="https://www.facebook.com/">
                 <svg class="footer_icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
 
-            <li">
-              <a class="footer_section .footer_section--advance" href="https://www.linkedin.com/">
+            <li>
+              <a class="footer_section--advance" href="https://www.linkedin.com/">
                 <svg class="footer_icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -490,7 +492,7 @@
               <input
                 class="input-form"
                 type="text"
-                name="users_name"
+                name="user_name"
                 id="name"
                 autofocus
                 required

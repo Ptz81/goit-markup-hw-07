@@ -84,8 +84,6 @@ img {
 
 
 
-
-
 /* BUTTON BASIS */
 
 button {
@@ -96,7 +94,15 @@ button {
 }
 
 
+/* BODY */
 
+body {
+    color: var(--primary-text-color);
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
 
 /* LIST & LOGO LINK BASIS */
 
@@ -122,18 +128,6 @@ button {
 .icon {
     fill: currentColor;
 }
-
-
-/* BODY */
-
-body {
-    color: var(--primary-text-color);
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-}
-
 
 
 /* GENERAL SECTION */
@@ -287,7 +281,7 @@ body {
 
 
 /* HERO SECTION */
-.hero {
+.hero{
 
     max-width: 1600px;
     height: 600px;
@@ -308,7 +302,7 @@ body {
     text-align: center;
 }
 
-.hero_title {
+.hero_title{
     color: var(--main-color);
     font-weight: 900;
     font-size: 44px;
@@ -321,11 +315,11 @@ body {
 }
 
 .hero_title--focus{
-    animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: hero_title--focus 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 .hero_btn{
-    animation: heartbeat 4s ease-in-out infinite both;
+    animation: hero_btn 4s ease-in-out infinite both;
 }
 
 
@@ -372,6 +366,7 @@ body {
 
 /* ACTIVITY  */
 
+
 .activity_title {
     margin-top: 0;
     margin-bottom: 50px;
@@ -380,6 +375,10 @@ body {
 .activity{
         display: flex;
         gap: 30px;
+}
+
+.activity_item{
+position: relative;
 }
 
 .activity_label{
@@ -396,9 +395,7 @@ body {
         text-transform: uppercase;
 }
 
-.activity_item{
-position: relative;
-}
+
 
 
 /* TEAM  */
@@ -408,12 +405,12 @@ position: relative;
     text-align: center;
 }
 
-.team-title {
+.team_title {
     margin-top: 0;
     margin-bottom: 50px;
 }
 
-.team-section {
+.team_section {
     display: flex;
     gap: 30px;
 }
@@ -443,6 +440,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     margin: 0;
     margin-bottom: 10px;
 }
+
 
 
 /* CLIENTS  */
@@ -555,16 +553,20 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .footer_section--advance{
 
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 44px;
-    height: 44px;
-    color: #AFB1B8;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        width: 44px;
+        height: 44px;
+        color: #AFB1B8;
 }
 
 .footer_section--advance:hover,
@@ -574,12 +576,16 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 
 }
 
-.footer_section--gap {
-    gap: 10px;
-}
 
 .footer_icon{
     fill: var(--main-color);
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px
 }
 
 .footer_label{
@@ -617,12 +623,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     align-items: center;
 }
 
-.footer_wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px
-}
+
 
 
 /* MAIN PAGE 2 */
@@ -680,7 +681,6 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 
 .border-line {
     width: 370px;
-
 }
 
 .portfolio-link {
