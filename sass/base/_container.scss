@@ -1,0 +1,18 @@
+.section_container {
+
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 15px;
+
+}
+
+.section_wrapper {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+    &--modification {
+    padding-top: 0px;
+}
+}
+
