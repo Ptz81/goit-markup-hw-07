@@ -540,7 +540,7 @@ button {
 .header_link--accent {
   color: var(--title-text-color);
 }
-.header_link--accent--accent:hover, .header_link--accent--accent:focus {
+.header_link--accent:hover, .header_link--accent:focus {
   color: var(--accent-color);
 }
 

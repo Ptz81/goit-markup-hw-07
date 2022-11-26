@@ -60,8 +60,8 @@
 .header_link--accent {
     color: var(--title-text-color);
 
-    &--accent:hover,
-    &--accent:focus {
+    &:hover,
+    &:focus {
     color: var(--accent-color);
 }
 }
