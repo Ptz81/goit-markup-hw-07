@@ -1,13 +1,16 @@
+@import "./base/modernNormalize";
 @import "./base/visuallyHidden";
-@import "./base/colors";
+@import "./utils/colors";
+@import "./utils/fonts";
+@import "./layout/flex";
 @import "./base/base";
-@import "./components/img";
-@import "./base/animation";
+@import "./base/img";
 @import "./components/logo";
 @import "./components/button";
 @import "./base/li";
+
 @import "./base/container"; 
-@import "./layout/header";
+@import "./components/header";
 @import "./components/hero";
 @import "./components/advantage";
 @import "./components/activity";
@@ -16,10 +19,10 @@
 @import "./components/clients";
 @import "./components/portfolio";
 @import "./components/overlay";
-@import "./layout/modal";
+@import "./components/modal";
 @import "./components/backdrop";
 @import "./components/input";
 @import "./components/comments";
 @import "./components/agreement";
-
-@import "./layout/footer";
+@import "./base/animation";
+@import "./components/footer";

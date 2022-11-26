@@ -3,19 +3,21 @@
 }
 
 .header_container {
-    display: flex;
-    align-items: center;
+    @include flex;
+    // display: flex;
+    // align-items: center;
 }
 
 .header_link {
+    @include flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &--focus {
@@ -82,8 +84,9 @@
 }
 
 .header_item--flex {
-    display: flex;
-    align-items: center;
+    @include flex;
+    // display: flex;
+    // align-items: center;
 
     &:not(:last-child) {
     margin-right: 50px;

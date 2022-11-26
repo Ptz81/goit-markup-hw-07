@@ -1,7 +1,8 @@
 .clients {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     gap: 30px;
 }
 
@@ -11,9 +12,10 @@
 }
 
 .clients_link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     color: #AFB1B8;
     width: 170px;
     height: 92px;

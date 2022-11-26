@@ -8,11 +8,12 @@
 }
 
 .advantage-wrapper__icon {
+    @include flex;
     width: 270px;
     height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     background-color: var(--secondary-bg-color);
     margin-bottom: 30px;
     gap: 30px;
